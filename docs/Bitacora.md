@@ -314,7 +314,7 @@ Mostrar en tiempo real cuántas URLs acortadas hay almacenadas en el sistema.
 
 **Captura de pantalla del panel en Grafana:**
 
-> _[Inserta aquí la imagen del panel mostrando la métrica visualizada]_
+![alt text](image-4.png)
 
 ---
 

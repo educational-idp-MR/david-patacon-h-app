@@ -240,3 +240,64 @@ WARNING: Unmatched cancel notification for request id 273
 2026.03.05 18:21:34 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
 2026.03.05 18:21:34 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
 2026.03.05 18:21:56 WARN  no build target for: C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java
+2026.03.05 18:22:27 WARN  no build target for: C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java
+2026.03.05 18:22:27 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:22:27 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:22:30 WARN  no build target for: C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java
+2026.03.05 18:22:30 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:22:30 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:22:31 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+mar 05, 2026 6:22:31 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: Range [-1, 1522) out of bounds for length 3911
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: Range [-1, 1522) out of bounds for length 3911
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2194)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:517)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.StringIndexOutOfBoundsException: Range [-1, 1522) out of bounds for length 3911
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55)
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210)
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckFromToIndex(Preconditions.java:112)
+	at java.base/jdk.internal.util.Preconditions.checkFromToIndex(Preconditions.java:349)
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4865)
+	at java.base/java.lang.String.substring(String.java:2834)
+	at scala.meta.internal.pc.JavaMetalsGlobal.findIndentifierStartAndEnd(JavaMetalsGlobal.scala:87)
+	at scala.meta.internal.pc.JavaDefinitionProvider.$anonfun$definitionImpl$5(JavaDefinitionProvider.scala:122)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.pc.JavaDefinitionProvider.definitionImpl(JavaDefinitionProvider.scala:70)
+	at scala.meta.internal.pc.JavaDefinitionProvider.definitionOffset(JavaDefinitionProvider.scala:53)
+	at scala.meta.internal.pc.JavaDefinitionProvider.definition(JavaDefinitionProvider.scala:31)
+	at scala.meta.internal.pc.JavaPresentationCompiler.definition(JavaPresentationCompiler.scala:98)
+	at scala.meta.internal.metals.Compilers.$anonfun$definition$1(Compilers.scala:1230)
+	at scala.meta.internal.metals.Compilers.$anonfun$withPCAndAdjustLsp$4(Compilers.scala:1543)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.Compilers.$anonfun$withPCAndAdjustLsp$3(Compilers.scala:1543)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.Compilers.withPCAndAdjustLsp(Compilers.scala:1535)
+	at scala.meta.internal.metals.Compilers.definition(Compilers.scala:1221)
+	at scala.meta.internal.metals.Compilers.definition(Compilers.scala:1182)
+	at scala.meta.internal.metals.DefinitionProvider.fromCompiler$1(DefinitionProvider.scala:97)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$definition$10(DefinitionProvider.scala:146)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$definition$15(DefinitionProvider.scala:153)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:503)
+	... 3 more
+
+2026.03.05 18:22:30 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:22:30 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:22:31 WARN  no build target for: C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java
+2026.03.05 18:22:31 WARN  no build target for: C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java
+2026.03.05 18:22:32 WARN  no build target for: C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java
+2026.03.05 18:22:32 WARN  no build target for: C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java
+2026.03.05 18:22:32 WARN  no build target for: C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java
+2026.03.05 18:22:32 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:22:33 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
