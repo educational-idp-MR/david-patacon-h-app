@@ -1,0 +1,69 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: david-patacon-h-app-monitoring
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: david-patacon-h-app-monitoring
+  labels:
+    app: david-patacon-h-app-monitoring
+  namespace: david-patacon-h-app-monitoring
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: david-patacon-h-app-monitoring
+  template:
+    metadata:
+      labels:
+        app: david-patacon-h-app-monitoring
+      annotations:
+        prometheus.io/scrape: "true"
+        prometheus.io/path: "/actuator/prometheus"
+        prometheus.io/port: "8080"
+    spec:
+      containers:
+      - name: david-patacon-h-app-monitoring
+        image: hello-world:latest #Workflows will update this image
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8080
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: david-patacon-h-app-monitoring
+  labels:
+    app: david-patacon-h-app-monitoring
+  namespace: david-patacon-h-app-monitoring
+spec:
+  selector:
+    app: david-patacon-h-app-monitoring
+  ports:
+  - port: 80
+    targetPort: 8080
+    name: http
+  type: ClusterIP
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: david-patacon-h-app-monitoring-ingress
+  namespace: david-patacon-h-app-monitoring
+  annotations:
+    nginx.ingress.kubernetes.io/use-regex: "true"
+spec:
+  ingressClassName: nginx
+  rules:
+    - host: david-patacon-h-app.obs-stack.eci-idp.click
+      http:
+        paths:
+          - path: /.*
+            pathType: ImplementationSpecific
+            backend:
+              service:
+                name: david-patacon-h-app-monitoring
+                port:
+                  number: 80
