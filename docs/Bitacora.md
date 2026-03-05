@@ -45,10 +45,10 @@ Cuando acabes no olvides ayudarnos evaluando tu ⭐[experiencia](https://forms.o
 
 **Endpoints probados:**
 
-- [ ] `GET /api/`
-- [ ] `POST /api/shorten`
-- [ ] `GET /api/{shortCode}`
-- [ ] `GET /api/urls`
+- [X] `GET /api/`
+- [X] `POST /api/shorten`
+- [X] `GET /api/{shortCode}`
+- [X] `GET /api/urls`
 
 
 ### 2.0.2. Análisis de dos métricas relevantes
@@ -57,41 +57,37 @@ Cuando acabes no olvides ayudarnos evaluando tu ⭐[experiencia](https://forms.o
 
 **Nombre de la métrica:**  
 ```
-
+http_server_requests_seconds_max 
 ```
 
 **Tipo de métrica:** 
 - [ ] Counter
-- [ ] Gauge 
+- [X] Gauge 
 - [ ] Histogram 
 - [ ] Summary
 
 **Descripción de qué información aporta:**
 ```
-
-
+Esta metrica aporta el tiempo maximo que se demora en mandar una URL
+Muestra un conjunto de peticiones realizadas y muestra la informacion para cada una 
 
 ```
 
 **Relación con otras métricas (si aplica):**
 ```
-Ejemplo: Un aumento en peticiones HTTP podría influir en el uso de CPU
-
 
 ```
 
 **¿En que escenarios puede ayudar esta métrica?**
 ```
-
+En el caso que quisiera disminir el tiempo de respuesta el enviar peticion es y optimizar el sistema esta metrica seria de utilidad
 
 
 ```
 
 **¿Qué etiquetas (labels) se utilizan para agrupar los datos?**
 ```
-Ejemplo: uri, method, status, instance, job, etc.
-
-
+error, exception, method, outcome, status, uri
 
 ```
 
@@ -101,18 +97,18 @@ Ejemplo: uri, method, status, instance, job, etc.
 
 **Nombre de la métrica:**  
 ```
-
+tomcat_sessions_expired_sessions_total
 ```
 
 **Tipo de métrica:** 
-- [ ] Counter
+- [x] Counter
 - [ ] Gauge 
 - [ ] Histogram 
 - [ ] Summary
 
 **Descripción de qué información aporta:**
 ```
-
+Esta metrica aporta la cantidad de sesiones expiradas del servidor tomcat
 
 
 ```
@@ -126,14 +122,14 @@ Ejemplo: Un aumento en peticiones HTTP podría influir en el uso de CPU
 
 **¿En que escenarios puede ayudar esta métrica?**
 ```
-
+Esta metrica podria ayudar a identificar si por algun error en el sistemas expiraron muchas sesiones
 
 
 ```
 
 **¿Qué etiquetas (labels) se utilizan para agrupar los datos?**
 ```
-Ejemplo: uri, method, status, instance, job, etc.
+no tiene
 
 
 
