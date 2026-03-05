@@ -144,7 +144,7 @@ no tiene
 
 **Captura de pantalla del dashboard:**
 
-> _[Inserta aquí la imagen del dashboard con los 4 paneles]_
+![alt text](image-1.png)
 
 ### 2.1.2. Visualizaciónes Adicionales (Con las metricas actuales)
 
@@ -152,24 +152,26 @@ no tiene
 
 **Propósito:**
 ```
-¿Qué quieres analizar o mostrar? Menciona qué métrica(s) vas a usar
+Quiero mostrar la cantidad de tipos de logs generados en un periodo de tiempo
 
 
 ```
 
 **Título del panel:**
 ```
-
+Contador tipos de logs
 ```
 
 **Consulta (PromQL o LogQL):**
 ```
-Consejo: Si usaste la interfaz de Grafana para crear el panel, puedes copiar la consulta que se muestra en la caja de texto de la seccion Code.
+sum by(level) (
+  rate(logback_events_total{app="david-patacon-h-app-monitoring"}[1m])
+)
 
 ```
 
 **Tipo de visualización:** 
-- [ ] Time series
+- [x] Time series
 - [ ] Gauge
 - [ ] Bar chart
 - [ ] Stat
@@ -178,17 +180,15 @@ Consejo: Si usaste la interfaz de Grafana para crear el panel, puedes copiar la 
 
 **Otros ajustes aplicados (colores, unidades, etc.) (opcional):**
 ```
-
+Agrege colores, tipo de linea, unidades en segundos y detalles visuales
 
 ```
 
 **Captura de pantalla:**
-
-> _[Inserta aquí la imagen del panel]_
-
+![alt text](image-2.png)
 **Análisis (2-3 frases):**
 ```
-¿Qué conclusiones o patrones observas?
+Esta grafica nos inidca que la mayoria de logs fueron solo de infomarcion e hubieron pocos errores.
 
 
 
@@ -200,25 +200,27 @@ Consejo: Si usaste la interfaz de Grafana para crear el panel, puedes copiar la 
 
 **Propósito:**
 ```
-¿Qué quieres analizar o mostrar? Menciona qué métrica(s) vas a mostrar
+Su utilidad es monitorear el comportamiento de los threads de la aplicación para detectar problemas de rendimiento, bloqueos o saturación.
 
 
 ```
 
 **Título del panel:**
 ```
-
+Estado hilos JVM
 ```
 
 **Consulta (PromQL o LogQL):**
 ```
-Consejo: Si usaste la interfaz de Grafana para crear el panel, puedes copiar la consulta que se muestra en la caja de texto de la seccion Code.
+sum by(state) (
+  jvm_threads_states_threads{app="david-patacon-h-app-monitoring"}
+)
 
 ```
 
 **Tipo de visualización:** 
 - [ ] Time series
-- [ ] Gauge
+- [x] Gauge
 - [ ] Bar chart
 - [ ] Stat
 - [ ] Logs
@@ -232,11 +234,11 @@ Consejo: Si usaste la interfaz de Grafana para crear el panel, puedes copiar la 
 
 **Captura de pantalla:**
 
-> _[Inserta aquí la imagen del panel]_
+![alt text](image-3.png)
 
 **Análisis (2-3 frases):**
 ```
-¿Qué conclusiones o patrones observas?
+Se puede observar que 7 hilos estan en runnable, 4 en timed-waiting y 11 esperando
 
 
 
