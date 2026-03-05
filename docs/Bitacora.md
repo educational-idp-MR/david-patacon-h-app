@@ -22,12 +22,12 @@ Cuando acabes no olvides ayudarnos evaluando tu ⭐[experiencia](https://forms.o
 
 **¿La aplicación se desplegó correctamente?** 
 
-- [ ] Sí
+- [X] Sí
 - [ ] No
 
 **Captura de pantalla de la aplicación funcionando:**
 
-> _[Inserta aquí la imagen de la aplicación corriendo en /api/]_
+![alt text](image.png)
 
 ### 1.3. Observaciones y problemas encontrados (opcional)
 
