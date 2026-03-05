@@ -1,3 +1,14 @@
+error id: file:///C:/Users/aleja/OneDrive/Desktop/7%20SEMESTRE/ARSW/david-patacon-h-app/telemetry-lab/src/main/java/com/telemetry/urlshortener/controller/UrlController.java:_empty_/ResponseEntity#
+file:///C:/Users/aleja/OneDrive/Desktop/7%20SEMESTRE/ARSW/david-patacon-h-app/telemetry-lab/src/main/java/com/telemetry/urlshortener/controller/UrlController.java
+empty definition using pc, found symbol in pc: _empty_/ResponseEntity#
+empty definition using semanticdb
+empty definition using fallback
+non-local guesses:
+
+offset: 1577
+uri: file:///C:/Users/aleja/OneDrive/Desktop/7%20SEMESTRE/ARSW/david-patacon-h-app/telemetry-lab/src/main/java/com/telemetry/urlshortener/controller/UrlController.java
+text:
+```scala
 package com.telemetry.urlshortener.controller;
 
 import com.telemetry.urlshortener.model.ShortenRequest;
@@ -42,9 +53,9 @@ public class UrlController {
         logger.info("Received shorten request for URL: {}", request.getUrl());
 
         try {
-            logger.info("fixed", request);
+            System.out.println();
         } catch (RuntimeException e) {
-            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
+            return Respon@@seEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
                     .body(Map.of("error", "Internal service error"));
         }
 
@@ -77,6 +88,7 @@ public class UrlController {
     @GetMapping("/{shortCode}")
     public RedirectView redirect(@PathVariable String shortCode) {
         logger.info("Redirect request for short code: {}", shortCode);
+        maybeFail("GET /{shortCode}");
         return urlShortenerService.getOriginalUrl(shortCode)
                 .map(mapping -> {
                     RedirectView redirectView = new RedirectView(mapping.getOriginalUrl());
@@ -95,7 +107,7 @@ public class UrlController {
         logger.info("Request to get all URLs");
 
         try {
-            logger.info("fixed");
+            maybeFail("GET /urls");
         } catch (RuntimeException e) {
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
                     .body(null);
@@ -104,3 +116,10 @@ public class UrlController {
     }
 
 }
+
+```
+
+
+#### Short summary: 
+
+empty definition using pc, found symbol in pc: _empty_/ResponseEntity#
