@@ -1,0 +1,242 @@
+2026.03.05 18:09:12 INFO  Started: Metals version 1.6.6 in folders 'C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app' for client Visual Studio Code 1.109.5.
+2026.03.05 18:09:12 INFO  Memory monitor started
+2026.03.05 18:09:12 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.03.05 18:09:12 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:09:17 WARN  no build target for: C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java
+2026.03.05 18:09:17 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:09:17 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:09:17 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:09:17 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:09:32 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:09:42 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:10:55 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:11:19 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:11:29 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:11:29 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:11:29 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+mar 05, 2026 6:11:30 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: Range [-1, 1225) out of bounds for length 3614
+java.lang.StringIndexOutOfBoundsException: Range [-1, 1225) out of bounds for length 3614
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55)
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210)
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckFromToIndex(Preconditions.java:112)
+	at java.base/jdk.internal.util.Preconditions.checkFromToIndex(Preconditions.java:349)
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4865)
+	at java.base/java.lang.String.substring(String.java:2834)
+	at scala.meta.internal.pc.JavaMetalsGlobal.findIndentifierStartAndEnd(JavaMetalsGlobal.scala:87)
+	at scala.meta.internal.pc.JavaMetalsGlobal.isAtIdentifier(JavaMetalsGlobal.scala:137)
+	at scala.meta.internal.pc.JavaDocumentHighlightProvider.atIdentifier$1(JavaDocumentHighlightProvider.scala:53)
+	at scala.meta.internal.pc.JavaDocumentHighlightProvider.documentHighlight(JavaDocumentHighlightProvider.scala:55)
+	at scala.meta.internal.pc.JavaDocumentHighlightProvider.documentHighlight(JavaDocumentHighlightProvider.scala:25)
+	at scala.meta.internal.pc.JavaPresentationCompiler.documentHighlight(JavaPresentationCompiler.scala:112)
+	at scala.meta.internal.metals.Compilers.$anonfun$documentHighlight$1(Compilers.scala:908)
+	at scala.meta.internal.metals.Compilers.$anonfun$withPCAndAdjustLsp$4(Compilers.scala:1543)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.Compilers.$anonfun$withPCAndAdjustLsp$3(Compilers.scala:1543)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.Compilers.withPCAndAdjustLsp(Compilers.scala:1535)
+	at scala.meta.internal.metals.Compilers.documentHighlight(Compilers.scala:903)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$documentHighlights$1(MetalsLspService.scala:1019)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLspService.documentHighlights(MetalsLspService.scala:1018)
+	at scala.meta.internal.metals.WorkspaceLspService.documentHighlights(WorkspaceLspService.scala:541)
+	at scala.meta.metals.lsp.DelegatingScalaService.documentHighlights(DelegatingScalaService.scala:83)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:265)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:195)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2026.03.05 18:11:29 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+mar 05, 2026 6:11:30 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: Range [-1, 1225) out of bounds for length 3614
+java.lang.StringIndexOutOfBoundsException: Range [-1, 1225) out of bounds for length 3614
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55)
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210)
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckFromToIndex(Preconditions.java:112)
+	at java.base/jdk.internal.util.Preconditions.checkFromToIndex(Preconditions.java:349)
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4865)
+	at java.base/java.lang.String.substring(String.java:2834)
+	at scala.meta.internal.pc.JavaMetalsGlobal.findIndentifierStartAndEnd(JavaMetalsGlobal.scala:87)
+	at scala.meta.internal.pc.JavaMetalsGlobal.isAtIdentifier(JavaMetalsGlobal.scala:137)
+	at scala.meta.internal.pc.JavaDocumentHighlightProvider.atIdentifier$1(JavaDocumentHighlightProvider.scala:53)
+	at scala.meta.internal.pc.JavaDocumentHighlightProvider.documentHighlight(JavaDocumentHighlightProvider.scala:55)
+	at scala.meta.internal.pc.JavaDocumentHighlightProvider.documentHighlight(JavaDocumentHighlightProvider.scala:25)
+	at scala.meta.internal.pc.JavaPresentationCompiler.documentHighlight(JavaPresentationCompiler.scala:112)
+	at scala.meta.internal.metals.Compilers.$anonfun$documentHighlight$1(Compilers.scala:908)
+	at scala.meta.internal.metals.Compilers.$anonfun$withPCAndAdjustLsp$4(Compilers.scala:1543)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.Compilers.$anonfun$withPCAndAdjustLsp$3(Compilers.scala:1543)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.Compilers.withPCAndAdjustLsp(Compilers.scala:1535)
+	at scala.meta.internal.metals.Compilers.documentHighlight(Compilers.scala:903)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$documentHighlights$1(MetalsLspService.scala:1019)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLspService.documentHighlights(MetalsLspService.scala:1018)
+	at scala.meta.internal.metals.WorkspaceLspService.documentHighlights(WorkspaceLspService.scala:541)
+	at scala.meta.metals.lsp.DelegatingScalaService.documentHighlights(DelegatingScalaService.scala:83)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:265)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:195)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2026.03.05 18:11:29 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:12:55 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:12:55 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:12:59 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:13:14 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:13:34 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:13:51 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:13:51 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:13:52 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:13:52 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:14:06 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:15:04 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:15:11 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:15:50 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+mar 05, 2026 6:15:50 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: Range [-1, 1225) out of bounds for length 3614
+java.lang.StringIndexOutOfBoundsException: Range [-1, 1225) out of bounds for length 3614
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55)
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210)
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckFromToIndex(Preconditions.java:112)
+	at java.base/jdk.internal.util.Preconditions.checkFromToIndex(Preconditions.java:349)
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4865)
+	at java.base/java.lang.String.substring(String.java:2834)
+	at scala.meta.internal.pc.JavaMetalsGlobal.findIndentifierStartAndEnd(JavaMetalsGlobal.scala:87)
+	at scala.meta.internal.pc.JavaMetalsGlobal.isAtIdentifier(JavaMetalsGlobal.scala:137)
+	at scala.meta.internal.pc.JavaDocumentHighlightProvider.atIdentifier$1(JavaDocumentHighlightProvider.scala:53)
+	at scala.meta.internal.pc.JavaDocumentHighlightProvider.documentHighlight(JavaDocumentHighlightProvider.scala:55)
+	at scala.meta.internal.pc.JavaDocumentHighlightProvider.documentHighlight(JavaDocumentHighlightProvider.scala:25)
+	at scala.meta.internal.pc.JavaPresentationCompiler.documentHighlight(JavaPresentationCompiler.scala:112)
+	at scala.meta.internal.metals.Compilers.$anonfun$documentHighlight$1(Compilers.scala:908)
+	at scala.meta.internal.metals.Compilers.$anonfun$withPCAndAdjustLsp$4(Compilers.scala:1543)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.Compilers.$anonfun$withPCAndAdjustLsp$3(Compilers.scala:1543)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.Compilers.withPCAndAdjustLsp(Compilers.scala:1535)
+	at scala.meta.internal.metals.Compilers.documentHighlight(Compilers.scala:903)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$documentHighlights$1(MetalsLspService.scala:1019)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLspService.documentHighlights(MetalsLspService.scala:1018)
+	at scala.meta.internal.metals.WorkspaceLspService.documentHighlights(WorkspaceLspService.scala:541)
+	at scala.meta.metals.lsp.DelegatingScalaService.documentHighlights(DelegatingScalaService.scala:83)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:265)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:195)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2026.03.05 18:16:03 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:16:05 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:16:05 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:16:05 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+mar 05, 2026 6:16:05 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 272
+mar 05, 2026 6:16:05 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 273
+2026.03.05 18:16:05 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:16:35 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:16:35 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:16:36 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:16:55 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:16:55 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:16:57 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:17:09 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:17:09 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:17:33 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:17:36 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:17:39 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:17:39 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:17:43 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:17:48 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:17:48 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:17:57 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:17:57 WARN  no build target for: C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java
+2026.03.05 18:17:58 WARN  Running javac-semanticdb failed for file:///C:/Users/aleja/OneDrive/Desktop/7%20SEMESTRE/ARSW/david-patacon-h-app/telemetry-lab/src/main/java/com/telemetry/urlshortener/service/UrlShortenerService.java. Output:
+
+2026.03.05 18:17:57 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:17:57 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:18:05 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:18:30 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:18:40 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:18:42 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:18:47 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:18:47 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:18:47 INFO  Created report: Optional[file:///C:/Users/aleja/OneDrive/Desktop/7%20SEMESTRE/ARSW/david-patacon-h-app/telemetry-lab/src/main/java/com/telemetry/urlshortener/service/UrlShortenerService.java]
+2026.03.05 18:18:47 INFO  empty definition using pc, found symbol in pc: io/micrometer/core/instrument/Gauge# (full report at: "C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\.metals\.reports\metals-full\2026-03-05\r_empty-definition_18-18-47-743.md")
+2026.03.05 18:18:47 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:18:47 INFO  Created report: Optional[file:///C:/Users/aleja/OneDrive/Desktop/7%20SEMESTRE/ARSW/david-patacon-h-app/telemetry-lab/src/main/java/com/telemetry/urlshortener/service/UrlShortenerService.java]
+2026.03.05 18:18:47 INFO  empty definition using pc, found symbol in pc: java/util/Map# (full report at: "C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\.metals\.reports\metals-full\2026-03-05\r_empty-definition_18-18-47-862.md")
+2026.03.05 18:18:48 WARN  no build target for: C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java
+2026.03.05 18:18:48 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:18:48 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:18:48 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:18:48 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:18:51 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:18:53 WARN  no build target for: C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java
+2026.03.05 18:18:54 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:18:56 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:18:56 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:18:57 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:19:17 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:19:17 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:19:17 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:19:19 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:19:23 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:19:24 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:19:31 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:20:43 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:20:43 WARN  no build target for: C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java
+2026.03.05 18:20:43 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:20:43 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:20:43 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:21:18 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:21:29 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:21:33 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:21:33 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:21:33 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:21:33 INFO  Created report: Optional[file:///C:/Users/aleja/OneDrive/Desktop/7%20SEMESTRE/ARSW/david-patacon-h-app/telemetry-lab/src/main/java/com/telemetry/urlshortener/service/UrlShortenerService.java]
+2026.03.05 18:21:33 INFO  empty definition using pc, found symbol in pc: _empty_/MeterRegistry# (full report at: "C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\.metals\.reports\metals-full\2026-03-05\r_empty-definition_18-21-33-740.md")
+2026.03.05 18:21:33 WARN  no build target for: C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java
+2026.03.05 18:21:33 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:21:34 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:21:34 INFO  no build target found for C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java. Using fallback presentation compiler.
+2026.03.05 18:21:56 WARN  no build target for: C:\Users\aleja\OneDrive\Desktop\7 SEMESTRE\ARSW\david-patacon-h-app\telemetry-lab\src\main\java\com\telemetry\urlshortener\service\UrlShortenerService.java

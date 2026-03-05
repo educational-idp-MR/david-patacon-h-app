@@ -1,8 +1,19 @@
+error id: file:///C:/Users/aleja/OneDrive/Desktop/7%20SEMESTRE/ARSW/david-patacon-h-app/telemetry-lab/src/main/java/com/telemetry/urlshortener/service/UrlShortenerService.java:io/micrometer/core/instrument/Gauge#
+file:///C:/Users/aleja/OneDrive/Desktop/7%20SEMESTRE/ARSW/david-patacon-h-app/telemetry-lab/src/main/java/com/telemetry/urlshortener/service/UrlShortenerService.java
+empty definition using pc, found symbol in pc: io/micrometer/core/instrument/Gauge#
+empty definition using semanticdb
+empty definition using fallback
+non-local guesses:
+
+offset: 184
+uri: file:///C:/Users/aleja/OneDrive/Desktop/7%20SEMESTRE/ARSW/david-patacon-h-app/telemetry-lab/src/main/java/com/telemetry/urlshortener/service/UrlShortenerService.java
+text:
+```scala
 package com.telemetry.urlshortener.service;
 
 import com.telemetry.urlshortener.model.UrlMapping;
 import io.micrometer.core.instrument.Counter;
-import io.micrometer.core.instrument.Gauge;
+import io.micrometer.core.instrument.@@Gauge;
 import io.micrometer.core.instrument.MeterRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -107,3 +118,10 @@ public class UrlShortenerService {
         return code;
     }
 }
+
+```
+
+
+#### Short summary: 
+
+empty definition using pc, found symbol in pc: io/micrometer/core/instrument/Gauge#

@@ -1,3 +1,14 @@
+error id: file:///C:/Users/aleja/OneDrive/Desktop/7%20SEMESTRE/ARSW/david-patacon-h-app/telemetry-lab/src/main/java/com/telemetry/urlshortener/service/UrlShortenerService.java:java/util/Map#
+file:///C:/Users/aleja/OneDrive/Desktop/7%20SEMESTRE/ARSW/david-patacon-h-app/telemetry-lab/src/main/java/com/telemetry/urlshortener/service/UrlShortenerService.java
+empty definition using pc, found symbol in pc: java/util/Map#
+empty definition using semanticdb
+empty definition using fallback
+non-local guesses:
+
+offset: 371
+uri: file:///C:/Users/aleja/OneDrive/Desktop/7%20SEMESTRE/ARSW/david-patacon-h-app/telemetry-lab/src/main/java/com/telemetry/urlshortener/service/UrlShortenerService.java
+text:
+```scala
 package com.telemetry.urlshortener.service;
 
 import com.telemetry.urlshortener.model.UrlMapping;
@@ -8,7 +19,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
-import java.util.Map;
+import java.util.@@Map;
 import java.util.Optional;
 import java.util.Random;
 import java.util.concurrent.ConcurrentHashMap;
@@ -107,3 +118,10 @@ public class UrlShortenerService {
         return code;
     }
 }
+
+```
+
+
+#### Short summary: 
+
+empty definition using pc, found symbol in pc: java/util/Map#

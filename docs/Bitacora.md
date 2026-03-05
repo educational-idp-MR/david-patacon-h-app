@@ -251,7 +251,7 @@ Se puede observar que 7 hilos estan en runnable, 4 en timed-waiting y 11 esperan
 **¿Qué otros datos te gustaría visualizar si tuvieras más información disponible?**
 ```
 
-
+Me gustaria informacion sobre la cantidad de usuarios que hacen peticiones concurrentes y logs relacionados a posibles errores de concurrencia
 
 ```
 
@@ -264,25 +264,23 @@ Se puede observar que 7 hilos estan en runnable, 4 en timed-waiting y 11 esperan
 
 **1. Nombre de la métrica:**
 ```
-Ejemplo: url_shortener_urls_created_total
+active_urls
 
 ```
 
 **2. Tipo de métrica:**
 - [ ] Counter
-- [ ] Gauge
+- [X] Gauge
 
 **3. ¿Qué comportamiento mide?**
 ```
-
-
+Mide el número actual de URLs acortadas que están almacenadas en memoria en el mapa
 
 ```
 
 **4. ¿Por qué es relevante para el sistema?**
 ```
-
-
+Permite conocer la carga actual del servicio de acortamiento.
 
 ```
 
@@ -294,23 +292,19 @@ Ejemplo: url_shortener_urls_created_total
 **1. ¿Qué tipo de panel usaste en Grafana?**
 
 - [ ] Time series  
-- [ ] Gauge  
+- [x] Gauge  
 - [ ] Stat  
 - [ ] Bar chart  
 - [ ] Otro: _____
 
 **2. ¿Qué consulta PromQL vas a utilizar?**
 ```promql
-
-
-
+active_urls{app="david-patacon-h-app-monitoring"}
 ```
 
 **3. ¿Cuál es el propósito de la visualización?**
 ```
-Provee una interpretación en palabras con el propósito de la visualización. Que te interesa ver en el panel?
-
-
+Mostrar en tiempo real cuántas URLs acortadas hay almacenadas en el sistema.
 
 ```
 

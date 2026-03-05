@@ -1,3 +1,14 @@
+error id: file:///C:/Users/aleja/OneDrive/Desktop/7%20SEMESTRE/ARSW/david-patacon-h-app/telemetry-lab/src/main/java/com/telemetry/urlshortener/service/UrlShortenerService.java:_empty_/MeterRegistry#
+file:///C:/Users/aleja/OneDrive/Desktop/7%20SEMESTRE/ARSW/david-patacon-h-app/telemetry-lab/src/main/java/com/telemetry/urlshortener/service/UrlShortenerService.java
+empty definition using pc, found symbol in pc: _empty_/MeterRegistry#
+empty definition using semanticdb
+empty definition using fallback
+non-local guesses:
+
+offset: 1051
+uri: file:///C:/Users/aleja/OneDrive/Desktop/7%20SEMESTRE/ARSW/david-patacon-h-app/telemetry-lab/src/main/java/com/telemetry/urlshortener/service/UrlShortenerService.java
+text:
+```scala
 package com.telemetry.urlshortener.service;
 
 import com.telemetry.urlshortener.model.UrlMapping;
@@ -26,7 +37,7 @@ public class UrlShortenerService {
     private final Counter dummyCounter;
     private final Gauge activeUrlsGauge;
 
-    public UrlShortenerService(MeterRegistry meterRegistry) {
+    public UrlShortenerService(MeterRegist@@ry meterRegistry) {
         logger.info("UrlShortenerService initialized with in-memory storage");
         this.dummyCounter = Counter.builder("dummyCounter")
                 .description("dummy description")
@@ -107,3 +118,10 @@ public class UrlShortenerService {
         return code;
     }
 }
+
+```
+
+
+#### Short summary: 
+
+empty definition using pc, found symbol in pc: _empty_/MeterRegistry#
